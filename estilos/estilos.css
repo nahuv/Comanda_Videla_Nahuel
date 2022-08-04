@@ -695,7 +695,9 @@ header{
 
 /*INDEX*/
 
-
+.menu ul{
+   margin-right: -50px;
+}
  .inicio{
     flex-direction: column;
 
