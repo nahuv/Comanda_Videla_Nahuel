@@ -412,6 +412,7 @@ justify-content: space-around;
 
 /*Seccion Lo Más Pedido*/
 
+/*
 
 .loMasPedido {
     margin-top: 40px;
@@ -419,15 +420,15 @@ justify-content: space-around;
 
 }
 
-
+*/
 
 /*Comida mas pedida*/
-
+/*
 .articulo_masPedido {
     display: inline-block;
     margin: 10px;
     padding-top: 30px;
-    max-width: 370px;
+    max-width: 300px;
     box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
     text-align: center;
     border-radius: 5px;
@@ -460,7 +461,12 @@ justify-content: space-around;
 }
 
 
+*/
 
+.cardMasPedido{
+    display: inline-block;
+    margin: 50px;
+}
 
 
 
@@ -687,6 +693,7 @@ footer p {
 
 
 
+
 header{
     flex-direction: column;
     align-items: center;
@@ -701,8 +708,8 @@ header img{
 /*INDEX*/
 
 .menu ul{
-  margin-top: -50px;
-   margin-right: -50px;
+  margin-top: -55px;
+ margin-right: -50px;
 }
  .inicio{
     flex-direction: column;
@@ -732,8 +739,8 @@ header img{
 }
 
 .inicio__img{
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
 }
 
 /*CONSUMO*/
@@ -789,7 +796,7 @@ header img{
     max-width: 350px;
 }
 
-/*Index*/
+
 
 
 
