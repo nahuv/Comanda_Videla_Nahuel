@@ -711,8 +711,9 @@ header{
 
 .contenedorInicio a{
 
-    margin-top: 120px;
-    margin-left: -240px;
+    position: absolute;
+    top: 115%;
+    left: 28%;
     width: 50%;
    
    
@@ -730,7 +731,7 @@ header{
 }
 
 .consumo__parrafo{
-    margin-top: -75px;
+    margin-top: -150px;
 }
 
 /*RESEÑAS**/
@@ -744,6 +745,10 @@ header{
     
     width: 100%;
     height: 100%;
+}
+
+.reseña__parrafo{
+ font-size: 12px;
 }
 
 
