@@ -690,18 +690,26 @@ header{
     align-items: center;
     justify-content: center;
 }
-
+header img{
+    height: 100%;
+    width: 100%;
+}
 
 
 /*INDEX*/
 
 .menu ul{
+  margin-top: -50px;
    margin-right: -50px;
 }
  .inicio{
     flex-direction: column;
 
    
+}
+
+.contenedorInicio{
+    margin-top: -100px;
 }
 
 .inicio__parrafo{
