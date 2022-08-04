@@ -379,6 +379,10 @@ justify-content: space-around;
     padding: 25px;
 }
 
+.cardBebidas p{
+    padding-bottom: 20px;
+}
+
 .cardBebidas button {
     border: none;
     outline: 0;
@@ -753,7 +757,7 @@ header{
 }
 
 .cardBebidas{
-    max-width: 360px;
+    max-width: 350px;
 }
 
 /*CARD COMIDAS*/
@@ -764,7 +768,7 @@ header{
     
 }
 .card{
-    max-width: 300px;
+    max-width: 350px;
 }
 
 /*Index*/
