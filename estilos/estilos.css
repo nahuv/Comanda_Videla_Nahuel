@@ -253,7 +253,7 @@ justify-content: space-around;
 
 }
 
-.card {
+.cardComida {
     
     margin: 10px;
     margin-bottom: 50px;
@@ -266,37 +266,37 @@ justify-content: space-around;
 
 }
 
-.card:hover {
+.cardComida:hover {
     transform: translateY(-40px);
     transition: 1s;
 }
 
 
 
-.card__imagen {
+.cardComida__imagen {
     width: 60%;
  
 }
 
-.card__titulo {
+.cardComida__titulo {
     font-size: 25px;
     letter-spacing: 5px;
 }
 
-.card__precio {
+.cardComida__precio {
     color: #2b2d42;
     font-size: 20px;
     padding-top: 20px;
 }
 
-.card__detalle {
+.cardComida__detalle {
     padding: 15px;
     line-height: 25px;
 }
 
 
 
-.card ul li {
+.cardComida ul li {
 
     list-style: none;
 
@@ -304,7 +304,7 @@ justify-content: space-around;
 }
 
 
-.card button {
+.cardComida button {
     border: none;
     outline: 0;
     padding: 15px;
@@ -318,7 +318,7 @@ justify-content: space-around;
     border-radius: 10px;
 }
 
-.card button:hover {
+.cardComida button:hover {
     background-color: #2b2d42;
 }
 
@@ -399,74 +399,6 @@ justify-content: space-around;
     border-radius: 10px;
 }
 
-.cardBebidas button:hover {
-    background-color: #2b2d42;
-}
-
-
-
-
-
-
-
-
-/*Seccion Lo Más Pedido*/
-
-/*
-
-.loMasPedido {
-    margin-top: 40px;
-    margin-left: 270px;
-
-}
-
-*/
-
-/*Comida mas pedida*/
-/*
-.articulo_masPedido {
-    display: inline-block;
-    margin: 10px;
-    padding-top: 30px;
-    max-width: 300px;
-    box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
-    text-align: center;
-    border-radius: 5px;
-}
-
-
-.articulo_masPedido__imagen {
-    width: 40%;
-}
-
-.articulo_masPedido__titulo {
-    font-size: 35px;
-    padding: 40px;
-
-}
-
-.articulo_masPedido__nombre {
-
-    margin-top: 10px;
-
-}
-
-.articulo_masPedido__subNombre {
-    margin-top: 10px;
-}
-
-.articulo_masPedido__detalle {
-
-    margin: 40px;
-}
-
-
-*/
-
-.cardMasPedido{
-    display: inline-block;
-    margin: 50px;
-}
 
 
 
@@ -541,7 +473,20 @@ justify-content: space-around;
 }
 
 
-/*PROMO CON GRID*/
+/*LO MAS PEDIDO*/
+
+.card img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+.card{
+   margin: 25px;
+   border-radius: 5px;
+}
 
 
 
