@@ -599,6 +599,14 @@ justify-content: space-around;
     border: none;
 }
 
+/*FORMULARIO*/
+
+.seccionForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+    
+}
 
 /*FOOTER*/
 
@@ -740,7 +748,6 @@ header img{
 .card{
     max-width: 350px;
 }
-
 
 
 
