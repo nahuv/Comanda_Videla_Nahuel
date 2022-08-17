@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/*VARIABLES*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Barra Navegación*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding-right: 40px;
+}
+.menu ul li a {
+  color: #d8c67c;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: #2b2d42;
+  transition: all 0.7s ease;
+  -webkit-text-decoration-color: #2b2d42;
+          text-decoration-color: #2b2d42;
+}
+
+/*INICIO*/
+.alert {
+  text-align: center;
+}
+
+.inicio {
+  display: flex;
+  padding: 0 40px;
+  margin: 10px;
+  justify-items: center;
+  align-items: center;
+}
+.inicio .inicio__img {
+  width: 50%;
+  height: 50%;
+  margin-top: 130px;
+  margin-left: 10px;
+}
+.inicio .inicio__parrafo {
+  font-size: 15px;
+  margin-left: 70px;
+  margin-top: 150px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.inicio a {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: #d8c67c;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+.inicio a:hover {
+  background-color: #2b2d42;
+}
+
+/*Sección Consumos*/
+.consumo {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 300px;
+  margin: 30px;
+  align-items: center;
+}
+.consumo .consumo__titulo {
+  font-size: 40px;
+}
+.consumo .consumo__parrafo {
+  margin-top: 70px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 80px;
+}
+.consumo .consumo__imagen {
+  width: 100%;
+  height: 100%;
+}
+
+/*Sección Reseñas*/
+.contenedorReseñas {
+  display: flex;
+  margin-bottom: 90px;
+}
+.contenedorReseñas h4 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: -100px;
+}
+
+.reseñas {
+  display: flex;
+  height: 70vh;
+  justify-content: space-evenly;
+  padding: 0 40px;
+  margin: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+.reseñas .reseña__titulo {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.reseñas .reseña__parrafo {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 25px;
+}
+.reseñas .reseña__imagen {
+  width: 35%;
+  height: 35%;
+}
+
+/***************************************FIN INDEX*/
+/*CARDS COMIDAS*/
+.seccionCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardComida {
+  margin: 10px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  max-width: 310px;
+  box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
+  text-align: center;
+  border-radius: 25px;
+}
+.cardComida .cardComida__imagen {
+  width: 60%;
+}
+.cardComida .cardComida__titulo {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.cardComida .cardComida__precio {
+  color: #2b2d42;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.cardComida .cardComida__detalle {
+  padding: 15px;
+  line-height: 25px;
+}
+.cardComida ul li {
+  list-style: none;
+}
+.cardComida button {
+  border: none;
+  outline: 0;
+  padding: 15px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #d8c67c;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.cardComida button:hover {
+  background-color: #2b2d42;
+}
+
+.cardComida:hover {
+  transform: translateY(-40px);
+  transition: 1s;
+}
+
+/**************CARDS BEBIDAS*/
+.seccionCardBebidas {
+  display: grid;
+  /*al padre*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, fr);
+  justify-items: center;
+}
+.seccionCardBebidas .cardBebidas {
+  margin: 10px;
+  margin-bottom: 50px;
+  padding-top: 60px;
+  max-width: 350px;
+  box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
+  text-align: center;
+  border-radius: 25px;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagen {
+  width: 20%;
+  height: 20%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__titulo {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__precio {
+  color: #2b2d42;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__detalle {
+  padding: 25px;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas p {
+  padding-bottom: 20px;
+}
+.seccionCardBebidas button {
+  border: none;
+  outline: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #d8c67c;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.seccionCardBebidas button:hover {
+  background-color: #2b2d42;
+}
+
+.cardBebidas:hover {
+  transform: translateY(-40px);
+  transition: 1s;
+}
+
+/***************PROMOS*/
+.promos {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 40px;
+  margin: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.promos__titulo {
+  text-align: center;
+}
+
+.promos__parrafo {
+  margin: 50px;
+  margin-left: 45px;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.promos__imagen {
+  width: 40%;
+  margin-bottom: 150px;
+}
+
+/****************LO MAS PEDIDO*/
+.card {
+  margin: 25px;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+}
+.card .card-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/*FORMULARIO*/
+/*FOOTER*/
+footer {
+  background-color: #2b2d42;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+footer p {
+  color: #d4dfca;
+  font-size: 20px;
+}
+
+/**********************************MEDIA QUERIES**********************************/
+/*TABLET*/
+/*Celular*/
+@media only screen and (max-width: 576px) {
+  /*Estilos generales*/
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header img {
+    height: 100%;
+    width: 100%;
+  }
+  /*INDEX*/
+  .menu ul {
+    margin-top: -55px;
+    margin-right: -50px;
+  }
+  .inicio {
+    flex-direction: column;
+  }
+  .contenedorInicio {
+    margin-top: -100px;
+  }
+  .inicio__parrafo {
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: center;
+  }
+  .contenedorInicio a {
+    position: absolute;
+    top: 115%;
+    left: 28%;
+    width: 50%;
+  }
+  .inicio__img {
+    width: 110%;
+    height: 110%;
+  }
+  /*CONSUMO*/
+  .consumo {
+    flex-direction: column;
+  }
+  .consumo__parrafo {
+    margin-top: -150px;
+  }
+  /*RESEÑAS**/
+  .reseñas {
+    flex-direction: column;
+    margin-top: 250px;
+  }
+  .reseña__imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .reseña__parrafo {
+    font-size: 12px;
+  }
+  /*CARD BEBIDAS*/
+  .seccionCardBebidas {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-top: 50px;
+  }
+  .cardBebidas {
+    max-width: 350px;
+  }
+  /*CARD COMIDAS*/
+  .seccionCard {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .card {
+    max-width: 350px;
+  }
+}

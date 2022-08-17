@@ -488,7 +488,18 @@ justify-content: space-around;
   
 }
 
+.card-title{
 
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+ 
+}
+
+.card-text{
+    letter-spacing: 2px;
+}
 
 
 /*SECCIÓN HORARIO*/
