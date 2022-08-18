@@ -42,7 +42,14 @@ header {
 
     li {
       a {
-        color: $color_principal1;
+
+        @if ($color_principal1==red) {
+          color:red;
+        }
+        @else if ($color_principal1==#d8c67c){
+          color: $color_principal1;
+        }
+       
         display: block;
         padding: 10px;
         text-decoration: none;
