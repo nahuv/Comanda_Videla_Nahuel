@@ -340,6 +340,10 @@ header nav {
   */
   margin-bottom: 150px;
 }
+.formularioCaja input:focus, .formularioCaja input[type]:focus {
+  border-color: #2b2d42;
+  outline: 0 none;
+}
 .formularioCaja h2 {
   text-align: center;
 }

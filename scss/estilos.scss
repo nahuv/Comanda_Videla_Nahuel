@@ -394,6 +394,11 @@ header {
   */
   margin-bottom: 150px;
 
+   input:focus, input[type]:focus {
+    border-color: $color1;
+    outline: 0 none;
+}
+
   h2 {
     text-align: center;
   }
