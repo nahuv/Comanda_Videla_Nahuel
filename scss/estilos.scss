@@ -1,11 +1,8 @@
-
 @import "colors";
 @import "fonts";
 
 /*VARIABLES*/
 $color1: #2b2d42;
-
-
 
 * {
   padding: 0;
@@ -37,20 +34,17 @@ header {
 .menu {
   ul {
     display: flex;
-    margin-right: 20px;
+    margin-right: 200px;
     list-style: none;
-  
 
     li {
       a {
-
         @if ($color_principal1==red) {
-          color:red;
-        }
-        @else if ($color_principal1==#d8c67c){
+          color: red;
+        } @else if ($color_principal1==#d8c67c) {
           color: $color_principal1;
         }
-       
+
         display: block;
         padding: 8px;
         text-decoration: none;
@@ -90,7 +84,6 @@ header {
     margin-left: 100px;
     letter-spacing: 4px;
     text-transform: uppercase;
-   
   }
 
   a {
@@ -145,44 +138,34 @@ header {
 }
 
 /*SECCION MESAS*/
-.contenedorMesasTomadas{
-  h4{
+.contenedorMesasTomadas {
+  h4 {
     text-align: center;
     font-size: 30px;
     letter-spacing: 4px;
     margin-top: 150px;
   }
-  .mesasTomadas__img{
-
+  .mesasTomadas__img {
     width: 30%;
     height: 30%;
     margin-top: 100px;
     margin-left: 500px;
-   
-    
   }
 }
 
-.mesasTomadas{
+.mesasTomadas {
   display: flex;
   margin-top: 100px;
   margin-left: 250px;
- 
-  
- 
 
-  .mesa{
-
+  .mesa {
     max-height: 40px;
     margin: 10px;
-  
+
     background-color: #2b2d42;
     color: white;
     padding: 100px;
     border-radius: 10px;
- 
-   
-   
   }
 }
 
@@ -278,7 +261,7 @@ header {
     margin: 20px;
     color: white;
     font-weight: bold;
-    background-color:$color_principal1;
+    background-color: $color_principal1;
     cursor: pointer;
     width: 50%;
     font-size: 18px;
@@ -308,14 +291,13 @@ header {
     margin: 10px;
     margin-bottom: 50px;
     padding-top: 60px;
-    max-width: 350px;
+    max-width: 300px;
     box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
     text-align: center;
     border-radius: 25px;
 
     .cardBebidas__imagen {
-      width: 20%;
-      height: 20%;
+      width: 40%;
     }
     .cardBebidas__titulo {
       font-size: 25px;
@@ -329,7 +311,7 @@ header {
     }
 
     .cardBebidas__detalle {
-      padding: 25px;
+      padding: 15px;
     }
 
     .cardBebidas p {
@@ -349,10 +331,9 @@ header {
     font-size: 18px;
     border-radius: 10px;
   }
-  button:hover{
-    background-color:$color1
+  button:hover {
+    background-color: $color1;
   }
-  
 }
 
 .cardBebidas:hover {
@@ -362,73 +343,64 @@ header {
 
 /*Promos*/
 
-.tituloPromo{
+.tituloPromo {
   text-align: center;
   letter-spacing: 3px;
   padding-bottom: 10px;
 }
 
-#carouselExampleDark{
+#carouselExampleDark {
   padding-bottom: 100px;
 }
 
-.carousel-caption{
-
-  h5{
-   
+.carousel-caption {
+  h5 {
     margin-left: 600px;
     margin-bottom: 110px;
     font-size: 35px;
     color: $color_principal1;
     letter-spacing: 3px;
   }
-  p{
- 
+  p {
     margin-top: -20px;
     margin-left: 600px;
     text-align: center;
     font-size: 16px;
-    color:$color1;
+    color: $color1;
     letter-spacing: 3px;
-
   }
 }
-
 
 /****************LO MAS PEDIDO*/
 
 .card {
-    margin: 25px;
-    img {
-        height: 100%;
-        width: 100%;
-      }
-      .card-title {
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 15px;
-      }
+  margin: 25px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .card-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
 }
-
-
-
-
 
 /*FORMULARIO*/
 
-
-.formularioCaja{
+.formularioCaja {
   display: flex;
+  /*margin-left: 250px;
+  */
+  margin-bottom: 150px;
 
- 
-
-
-  h2{
+  h2 {
     text-align: center;
   }
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -457,8 +429,6 @@ button:hover {
   background-color: #f44336;
 }
 
-
-
 img.avatar {
   width: 10%;
   border-radius: 50%;
@@ -472,11 +442,6 @@ span.psw {
   float: right;
   padding-top: 16px;
 }
-
-
-
-
-
 
 /*FOOTER*/
 
@@ -493,7 +458,6 @@ footer {
     font-size: 20px;
   }
 }
-
 
 /**********************************MEDIA QUERIES**********************************/
 
@@ -515,15 +479,13 @@ footer {
   header img {
     height: 100%;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   /*INDEX*/
 
   .menu ul {
-    margin-top: -55px;
-    
-   
+    margin: -20px;
   }
 
   .inicio {
@@ -531,25 +493,20 @@ footer {
   }
 
   .contenedorInicio {
-     margin-top: -50px;
-     
+    margin-top: -50px;
+
     .inicio__img {
       width: 100%;
-      height: 100%;
+      
     }
 
     .inicio__parrafo {
-   
       font-size: 16px;
       margin-right: 60px;
       padding-top: 50px;
       text-align: center;
-  
-      
     }
   }
-
-  
 
   .contenedorInicio a {
     position: absolute;
@@ -560,36 +517,41 @@ footer {
 
   /*MESAS*/
 
-  .mesasTomadas{
-    flex-direction: column;
- 
+  .contenedorMesasTomadas {
+    .mesasTomadas__img {
+      margin-left: 80px;
 
-
-
-    .mesasTomadas__img{
-      width: 100%;
-      height: 100%;
+      width: 70%;
+      height: 70%;
     }
   }
 
+  .mesasTomadas {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
   /*RESEÑAS**/
 
   .reseñas {
     flex-direction: column;
-    margin-top: 210px;
+    padding-top: 50px;
+    margin-top: 100px;
 
     .reseña__parrafo {
-      font-size: 14px;
+      font-size: 10px;
+      
     }
+    
   }
 
   .reseña__imagen {
+    
     width: 100%;
     height: 100%;
   }
-
- 
 
   /*CARD BEBIDAS*/
 
@@ -614,12 +576,8 @@ footer {
     max-width: 350px;
   }
 
-  .formularioCaja{
+  .formularioCaja {
     flex-direction: column;
     margin-bottom: 110px;
-    
-    
-    
   }
 }
-

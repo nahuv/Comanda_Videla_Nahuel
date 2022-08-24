@@ -27,7 +27,7 @@ header nav {
 
 .menu ul {
   display: flex;
-  margin-right: 20px;
+  margin-right: 200px;
   list-style: none;
 }
 .menu ul li a {
@@ -247,14 +247,13 @@ header nav {
   margin: 10px;
   margin-bottom: 50px;
   padding-top: 60px;
-  max-width: 350px;
+  max-width: 300px;
   box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
   text-align: center;
   border-radius: 25px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__imagen {
-  width: 20%;
-  height: 20%;
+  width: 40%;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__titulo {
   font-size: 25px;
@@ -266,7 +265,7 @@ header nav {
   padding-top: 20px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__detalle {
-  padding: 25px;
+  padding: 15px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas p {
   padding-bottom: 20px;
@@ -337,12 +336,16 @@ header nav {
 /*FORMULARIO*/
 .formularioCaja {
   display: flex;
+  /*margin-left: 250px;
+  */
+  margin-bottom: 150px;
 }
 .formularioCaja h2 {
   text-align: center;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -412,11 +415,11 @@ footer p {
   header img {
     height: 100%;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   /*INDEX*/
   .menu ul {
-    margin-top: -55px;
+    margin: -20px;
   }
   .inicio {
     flex-direction: column;
@@ -426,7 +429,6 @@ footer p {
   }
   .contenedorInicio .inicio__img {
     width: 100%;
-    height: 100%;
   }
   .contenedorInicio .inicio__parrafo {
     font-size: 16px;
@@ -441,20 +443,25 @@ footer p {
     width: 50%;
   }
   /*MESAS*/
+  .contenedorMesasTomadas .mesasTomadas__img {
+    margin-left: 80px;
+    width: 70%;
+    height: 70%;
+  }
   .mesasTomadas {
     flex-direction: column;
-  }
-  .mesasTomadas .mesasTomadas__img {
-    width: 100%;
-    height: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   /*RESEÑAS**/
   .reseñas {
     flex-direction: column;
-    margin-top: 210px;
+    padding-top: 50px;
+    margin-top: 100px;
   }
   .reseñas .reseña__parrafo {
-    font-size: 14px;
+    font-size: 10px;
   }
   .reseña__imagen {
     width: 100%;
