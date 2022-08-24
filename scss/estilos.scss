@@ -144,6 +144,48 @@ header {
   }
 }
 
+/*SECCION MESAS*/
+.contenedorMesasTomadas{
+  h4{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: 150px;
+  }
+  .mesasTomadas__img{
+
+    width: 30%;
+    height: 30%;
+    margin-top: 100px;
+    margin-left: 500px;
+   
+    
+  }
+}
+
+.mesasTomadas{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+ 
+  
+ 
+
+  .mesa{
+
+    max-height: 40px;
+    margin: 10px;
+  
+    background-color: #2b2d42;
+    color: white;
+    padding: 100px;
+    border-radius: 10px;
+ 
+   
+   
+  }
+}
+
 /*Sección Reseñas*/
 
 .contenedorReseñas {
@@ -489,16 +531,25 @@ footer {
   }
 
   .contenedorInicio {
-    margin-top: -50px;
+     margin-top: -50px;
+     
+    .inicio__img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .inicio__parrafo {
+   
+      font-size: 16px;
+      margin-right: 60px;
+      padding-top: 50px;
+      text-align: center;
+  
+      
+    }
   }
 
-  .inicio__parrafo {
-   
-    font-size: 5px;
-    margin-right: 60px;
-    padding-top: 50px;
-    text-align: center;
-  }
+  
 
   .contenedorInicio a {
     position: absolute;
@@ -507,9 +558,18 @@ footer {
     width: 50%;
   }
 
-  .inicio__img {
-    width: 100%;
-    height: 100%;
+  /*MESAS*/
+
+  .mesasTomadas{
+    flex-direction: column;
+ 
+
+
+
+    .mesasTomadas__img{
+      width: 100%;
+      height: 100%;
+    }
   }
 
 
@@ -517,7 +577,11 @@ footer {
 
   .reseñas {
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: 210px;
+
+    .reseña__parrafo {
+      font-size: 14px;
+    }
   }
 
   .reseña__imagen {
@@ -525,9 +589,7 @@ footer {
     height: 100%;
   }
 
-  .reseña__parrafo {
-    font-size: 12px;
-  }
+ 
 
   /*CARD BEBIDAS*/
 
