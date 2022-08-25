@@ -275,6 +275,9 @@ header {
     font-size: 18px;
     border-radius: 10px;
   }
+  .cardComida__imagenFideos{
+    width: 40%;
+  }
 
   .cardComida__imagen {
     width: 40%;
@@ -638,15 +641,21 @@ footer {
     align-items: center;
     margin-top: 50px;
 
-   
+    .cardBebidas{
+      max-width:  380px;
+      padding: 40px;
+  
+      .cardBebidas__imagen{
+        width: 30%;
+      }
+  
+      button{
+        margin-bottom: 30px;
+      }
   
   }
 
-  .cardBebidas{
 
-    button{
-      margin-bottom: 30px;
-    }
   }
 
 
@@ -656,14 +665,25 @@ footer {
     align-items: center;
     margin-top: 60px;
    
- 
+    .cardComida{
+      max-width:  380px;
+      padding: 40px;
+    }
+
+     .cardComida__imagen {
+      width: 50%;
+    }
+    
+    .cardComida__imagenFideos{
+      width: 85%;
+      margin-left: 20px;
+   
+    }
 
    
   }
 
-  .cardComida{
-    max-width:  350px;
-  }
+
 
 
   /*PROMOS*/

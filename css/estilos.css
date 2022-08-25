@@ -214,6 +214,9 @@ header nav {
   font-size: 18px;
   border-radius: 10px;
 }
+.cardComida .cardComida__imagenFideos {
+  width: 40%;
+}
 .cardComida .cardComida__imagen {
   width: 40%;
 }
@@ -509,7 +512,14 @@ footer p {
     align-items: center;
     margin-top: 50px;
   }
-  .cardBebidas button, .mesasTomadas button button {
+  .seccionCardBebidas .cardBebidas, .seccionCardBebidas .mesasTomadas button, .mesasTomadas .seccionCardBebidas button {
+    max-width: 380px;
+    padding: 40px;
+  }
+  .seccionCardBebidas .cardBebidas .cardBebidas__imagen, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagen, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagen {
+    width: 30%;
+  }
+  .seccionCardBebidas .cardBebidas button, .seccionCardBebidas .mesasTomadas button button, .mesasTomadas .seccionCardBebidas button button {
     margin-bottom: 30px;
   }
   /*CARD COMIDAS*/
@@ -518,8 +528,16 @@ footer p {
     align-items: center;
     margin-top: 60px;
   }
-  .cardComida {
-    max-width: 350px;
+  .seccionCard .cardComida {
+    max-width: 380px;
+    padding: 40px;
+  }
+  .seccionCard .cardComida__imagen {
+    width: 50%;
+  }
+  .seccionCard .cardComida__imagenFideos {
+    width: 85%;
+    margin-left: 20px;
   }
   /*PROMOS*/
   .carousel {
