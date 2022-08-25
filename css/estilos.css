@@ -21,7 +21,6 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: flex-end;
   padding-top: 50px;
 }
 
@@ -185,7 +184,7 @@ header nav {
 .seccionCard {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 25px;
   justify-content: space-around;
 }
 
@@ -202,6 +201,7 @@ header nav {
   width: 40%;
 }
 .cardComida .cardComida__titulo {
+  padding-top: 20px;
   font-size: 25px;
   letter-spacing: 5px;
 }
@@ -251,24 +251,51 @@ header nav {
 .seccionCardBebidas .cardBebidas {
   margin: 10px;
   margin-bottom: 50px;
-  padding-top: 60px;
+  padding-top: 20px;
   max-width: 300px;
   box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
   text-align: center;
   border-radius: 25px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__imagen {
-  margin-top: -10px;
-  width: 40%;
+  margin-top: 10px;
+  width: 30%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenSprite {
+  margin-top: 10px;
+  width: 80%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella {
+  margin-top: 10px;
+  width: 70%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenNegra {
+  width: 46%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubia {
+  width: 60%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenIpaLata {
+  width: 26%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubiaLitro {
+  width: 17.5%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella {
+  width: 59%;
+}
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenCocaCola {
+  width: 63%;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__titulo {
+  padding: 20px;
   font-size: 25px;
   letter-spacing: 5px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__precio {
   color: #2b2d42;
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .seccionCardBebidas .cardBebidas .cardBebidas__detalle {
   font-size: 13px;
@@ -300,13 +327,8 @@ header nav {
 }
 
 /*Promos*/
-.tituloPromo {
-  text-align: center;
-  letter-spacing: 3px;
-  padding-bottom: 10px;
-}
-
 #carouselExampleDark {
+  margin-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -347,7 +369,8 @@ header nav {
   */
   margin-bottom: 150px;
 }
-.formularioCaja input:focus, .formularioCaja input[type]:focus {
+.formularioCaja input:focus,
+.formularioCaja input[type]:focus {
   border-color: #2b2d42;
   outline: 0 none;
 }
@@ -495,5 +518,20 @@ footer p {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+  }
+  /*PROMOS*/
+  .carousel {
+    margin-top: 100px;
+  }
+  .carousel-caption h5 {
+    font-size: 10px;
+    color: #d8c67c;
+    letter-spacing: 3px;
+  }
+  .carousel-caption h5 p {
+    text-align: center;
+    font-size: 5px;
+    color: #2b2d42;
+    letter-spacing: 3px;
   }
 }

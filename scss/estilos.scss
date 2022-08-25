@@ -26,7 +26,7 @@ header {
 
   nav {
     display: flex;
-    justify-content: flex-end;
+
     padding-top: 50px;
   }
 }
@@ -167,7 +167,7 @@ header {
     padding: 100px;
     border-radius: 10px;
 
-    p{
+    p {
       text-align: center;
     }
   }
@@ -220,7 +220,7 @@ header {
 .seccionCard {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 25px;
   justify-content: space-around;
 }
 
@@ -238,6 +238,7 @@ header {
   }
 
   .cardComida__titulo {
+    padding-top: 20px;
     font-size: 25px;
     letter-spacing: 5px;
   }
@@ -296,26 +297,63 @@ header {
   .cardBebidas {
     margin: 10px;
     margin-bottom: 50px;
-    padding-top: 60px;
+    padding-top: 20px;
     max-width: 300px;
     box-shadow: 0 4px 10px 0 rgba(44, 45, 46, 0.6);
     text-align: center;
     border-radius: 25px;
 
     .cardBebidas__imagen {
-      margin-top: -10px;
-      width: 40%;
+      margin-top: 10px;
+      width: 30%;
+    }
+    .cardBebidas__imagenSprite {
+      margin-top: 10px;
+      width: 80%;
+    }
+
+    .cardBebidas__imagenStella {
+      margin-top: 10px;
+      width: 70%;
+    }
+
+    .cardBebidas__imagenNegra{
+     
+      width: 46%;
+
+    }
+    .cardBebidas__imagenRubia{
+      width: 60%;
+    }
+
+    .cardBebidas__imagenIpaLata{
+      width: 26%;
+    }  
+    .cardBebidas__imagenRubiaLitro{
+      width: 17.5%;
+    }
+    .cardBebidas__imagenStella{
+      width: 59%;
+    }
+    .cardBebidas__imagenCocaCola{
+      width: 63%;
     }
     .cardBebidas__titulo {
+      padding: 20px;
       font-size: 25px;
       letter-spacing: 5px;
+
+    
     }
+ 
 
     .cardBebidas__precio {
       color: $color1;
       font-size: 20px;
-      padding-top: 20px;
+      padding-top: 10px;
     }
+
+   
 
     .cardBebidas__detalle {
       font-size: 13px;
@@ -351,13 +389,8 @@ header {
 
 /*Promos*/
 
-.tituloPromo {
-  text-align: center;
-  letter-spacing: 3px;
-  padding-bottom: 10px;
-}
-
 #carouselExampleDark {
+  margin-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -402,10 +435,11 @@ header {
   */
   margin-bottom: 150px;
 
-   input:focus, input[type]:focus {
+  input:focus,
+  input[type]:focus {
     border-color: $color1;
     outline: 0 none;
-}
+  }
 
   h2 {
     text-align: center;
@@ -510,7 +544,6 @@ footer {
 
     .inicio__img {
       width: 100%;
-      
     }
 
     .inicio__parrafo {
@@ -537,8 +570,8 @@ footer {
       width: 70%;
       height: 70%;
     }
-    .mesa{
-      p{
+    .mesa {
+      p {
         text-align: center;
       }
     }
@@ -560,13 +593,10 @@ footer {
 
     .reseña__parrafo {
       font-size: 10px;
-      
     }
-    
   }
 
   .reseña__imagen {
-    
     width: 100%;
     height: 100%;
   }
@@ -590,7 +620,24 @@ footer {
     margin-top: 60px;
   }
 
+  /*PROMOS*/
 
+  .carousel {
+    margin-top: 100px;
+  }
 
-  
+  .carousel-caption {
+    h5 {
+      font-size: 10px;
+      color: $color_principal1;
+      letter-spacing: 3px;
+
+      p {
+        text-align: center;
+        font-size: 5px;
+        color: $color1;
+        letter-spacing: 3px;
+      }
+    }
+  }
 }
