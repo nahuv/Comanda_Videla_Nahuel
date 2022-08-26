@@ -116,7 +116,7 @@ header nav {
 /*SECCION MESAS*/
 .contenedorMesasTomadas h4 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 4px;
   margin-top: 150px;
 }
@@ -131,19 +131,33 @@ header nav {
   display: flex;
   margin-top: 100px;
   margin-left: 200px;
-  /*****************************************EXTEND********/
-}
-.mesasTomadas button {
-  margin-top: -70px;
-  border-radius: 5px;
 }
 .mesasTomadas .mesa {
-  max-height: 10px;
+  max-height: 400px;
   margin: 10px;
   background-color: #2b2d42;
   color: white;
   padding: 100px;
   border-radius: 10px;
+}
+.mesasTomadas .mesa button {
+  border-radius: 5px;
+}
+
+.modal-content .modal-header .modal-title {
+  color: #2b2d42;
+  margin: 30px;
+  margin-left: 180px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.modal-body ul li {
+  list-style: none;
+}
+
+.modal-footer button {
+  border-radius: 5px;
 }
 
 /*Sección Reseñas*/
@@ -255,7 +269,7 @@ header nav {
   grid-template-rows: repeat(3, fr);
   justify-items: center;
 }
-.seccionCardBebidas .cardBebidas, .seccionCardBebidas .mesasTomadas button, .mesasTomadas .seccionCardBebidas button {
+.seccionCardBebidas .cardBebidas {
   margin: 10px;
   margin-bottom: 50px;
   padding-top: 20px;
@@ -265,51 +279,51 @@ header nav {
   border-radius: 25px;
   /*MAPS*/
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagen, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagen, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagen {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagen {
   margin-top: 10px;
   width: 30%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenSprite, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenSprite, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenSprite {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenSprite {
   margin-top: 10px;
   width: 80%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenStella, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenStella {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella {
   margin-top: 10px;
   width: 70%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenNegra, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenNegra, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenNegra {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenNegra {
   width: 46%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubia, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenRubia, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenRubia {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubia {
   width: 60%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenIpaLata, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenIpaLata, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenIpaLata {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenIpaLata {
   width: 26%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubiaLitro, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenRubiaLitro, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenRubiaLitro {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenRubiaLitro {
   width: 17.5%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenStella, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenStella {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenStella {
   width: 59%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__imagenCocaCola, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagenCocaCola, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagenCocaCola {
+.seccionCardBebidas .cardBebidas .cardBebidas__imagenCocaCola {
   width: 63%;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__titulo, .seccionCardBebidas .mesasTomadas button .cardBebidas__titulo, .mesasTomadas .seccionCardBebidas button .cardBebidas__titulo {
+.seccionCardBebidas .cardBebidas .cardBebidas__titulo {
   padding-top: 20px;
   font-size: 25px;
   letter-spacing: 3px;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__precio, .seccionCardBebidas .mesasTomadas button .cardBebidas__precio, .mesasTomadas .seccionCardBebidas button .cardBebidas__precio {
+.seccionCardBebidas .cardBebidas .cardBebidas__precio {
   color: #2b2d42;
   font-size: 20px;
   padding-top: 10px;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas__detalle, .seccionCardBebidas .mesasTomadas button .cardBebidas__detalle, .mesasTomadas .seccionCardBebidas button .cardBebidas__detalle {
+.seccionCardBebidas .cardBebidas .cardBebidas__detalle {
   font-size: 13px;
   padding: 15px;
 }
-.seccionCardBebidas .cardBebidas .cardBebidas p, .seccionCardBebidas .mesasTomadas button .cardBebidas p, .mesasTomadas .seccionCardBebidas button .cardBebidas p, .seccionCardBebidas .cardBebidas .mesasTomadas button p, .mesasTomadas .seccionCardBebidas .cardBebidas button p, .seccionCardBebidas .mesasTomadas button button p, .mesasTomadas .seccionCardBebidas button button p {
+.seccionCardBebidas .cardBebidas .cardBebidas p {
   padding-bottom: 20px;
 }
 .seccionCardBebidas button {
@@ -329,7 +343,7 @@ header nav {
   background-color: #2b2d42;
 }
 
-.cardBebidas:hover, .mesasTomadas button:hover {
+.cardBebidas:hover {
   transform: translateY(-40px);
   transition: 1s;
 }
@@ -493,6 +507,16 @@ footer p {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .modal-content .modal-header .modal-title {
+    margin: 15px;
+    margin-left: 125px;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .modal-body ul li {
+    font-size: 20px;
+    list-style: none;
+  }
   /*RESEÑAS**/
   .reseñas {
     flex-direction: column;
@@ -512,14 +536,14 @@ footer p {
     align-items: center;
     margin-top: 50px;
   }
-  .seccionCardBebidas .cardBebidas, .seccionCardBebidas .mesasTomadas button, .mesasTomadas .seccionCardBebidas button {
+  .seccionCardBebidas .cardBebidas {
     max-width: 380px;
     padding: 40px;
   }
-  .seccionCardBebidas .cardBebidas .cardBebidas__imagen, .seccionCardBebidas .mesasTomadas button .cardBebidas__imagen, .mesasTomadas .seccionCardBebidas button .cardBebidas__imagen {
+  .seccionCardBebidas .cardBebidas .cardBebidas__imagen {
     width: 30%;
   }
-  .seccionCardBebidas .cardBebidas button, .seccionCardBebidas .mesasTomadas button button, .mesasTomadas .seccionCardBebidas button button {
+  .seccionCardBebidas .cardBebidas button {
     margin-bottom: 30px;
   }
   /*CARD COMIDAS*/
